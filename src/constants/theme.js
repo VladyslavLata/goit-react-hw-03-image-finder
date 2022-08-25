@@ -9,12 +9,14 @@ export const theme = {
     bgWhite: '#fff',
     bgBlack: '#000',
     bgGray: '#dcdcdc',
+    bgPrimary: '#3f51b5',
+    bgPrimaryAccent: '#303f9f',
     primary: '#07c',
     secondary: '#05a',
     accent: '#00ffff',
     muted: '#f6f6f6',
   },
-  space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
+  space: [0, 2, 4, 8, 16, 32, 64, 128, 256, 12, 24],
   fonts: {
     body: 'system-ui, sans-serif',
     heading: 'system-ui, sans-serif',
@@ -22,18 +24,20 @@ export const theme = {
   },
   fontSizes: {
     xs: '12px',
-    s: '16px',
+    s: '18px',
     m: '24px',
     l: '32px',
     xl: '64px',
   },
   fontWeights: {
     normal: 400,
+    medium: 500,
     bold: 700,
   },
   lineHeights: {
     body: 1.5,
     heading: 1.125,
+    button: 1.33,
   },
   borders: {
     none: 'none',
